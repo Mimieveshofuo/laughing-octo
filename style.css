@@ -11,7 +11,6 @@ body {
 }
 .header-container {
   background-color: hsl(36, 14%, 93%);
-  /* min-height: 400px; */
   height: 630px;
 }
 .header {
@@ -96,7 +95,6 @@ nav a {
 }
 .save a{
   color: hsl(44, 13%, 33%);
-  /* text-decoration: none; */
   margin-top: 20px;
   font-size: 16px;
   font-weight: bold;
@@ -209,6 +207,9 @@ nav a {
     justify-content:center;
     line-height: 2;
   }
+  .heroimage, .down{
+    width: 100%;
+  }
   .cross-one{
     position: absolute;
     transform: rotate(45deg);
@@ -261,8 +262,8 @@ nav a {
   .herosection {
     display: block;
   }
-  .heroimage img {
-    width: -webkit-fill-available;
+  .heroimage img, .down img{
+    width: inherit;
     height: unset;
   }
   .note-container {
