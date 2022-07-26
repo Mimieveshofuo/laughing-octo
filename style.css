@@ -130,8 +130,11 @@ nav a {
   align-items: center;
   padding: 40px 0px;
 }
+.phone{
+  width: 50%
+}
 .phone img{
-    width: 400px;
+    width: 100%;
 }
 .media-phone {
   display: none;
@@ -153,8 +156,11 @@ nav a {
   flex-direction: row-reverse;
   justify-content: space-between;
 }
+.down{
+  width: 50%;
+}
 .texeditor img{
-  width: 500px;
+  width: 100%;
 }
 /* Footer */
 .footer-heading:nth-child(1) {
@@ -289,6 +295,9 @@ nav a {
   .escrow {
     display: block;
     padding: 30px ;
+  }
+  .phone{
+    width: 100%;
   }
   .media-phone img {
     width: 90px;
